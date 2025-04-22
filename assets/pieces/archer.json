@@ -1,0 +1,17 @@
+{
+  "typeName": "ARCHER",
+  "pointCost": 8,
+  "displayName": "Archer",
+  "description": "Moves like a Bishop. Can attack like a Knight without moving.",
+  "assetBaseName": "archer",
+  "initialState": {
+    "hasMoved": false
+  },
+  "moveComponents": [
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 1, "dy": -1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": -1} },
+    { "type": "RANGED_L_ATTACK" }
+  ]
+}

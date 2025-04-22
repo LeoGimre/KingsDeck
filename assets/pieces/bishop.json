@@ -1,0 +1,14 @@
+{
+  "typeName": "BISHOP",
+  "pointCost": 3,
+  "displayName": "Bishop",
+  "description": "Moves diagonally any number of squares.",
+  "assetBaseName": "bishop",
+  "initialState": {},
+  "moveComponents": [
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 1, "dy": -1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": -1} }
+  ]
+}

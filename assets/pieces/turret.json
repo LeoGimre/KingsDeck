@@ -1,0 +1,17 @@
+{
+  "typeName": "TURRET",
+  "pointCost": 7,
+  "displayName": "Turret",
+  "description": "Moves horizontally, vertically, or diagonally, and attacks with range.",
+  "assetBaseName": "turret",
+  "initialState": {
+    "hasMoved": false
+  },
+  "moveComponents": [
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": -1} },
+    { "type": "SINGLE_STEP" }
+  ]
+}

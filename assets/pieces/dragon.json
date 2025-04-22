@@ -1,0 +1,19 @@
+{
+  "typeName": "DRAGON",
+  "pointCost": 12,
+  "displayName": "Dragon",
+  "description": "Moves like a Queen and a Knight.",
+  "assetBaseName": "dragon",
+  "initialState": {},
+  "moveComponents": [
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": -1} },
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 1, "dy": -1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": -1} },
+    { "type": "L_SHAPE" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "typeName": "PAWN",
+  "pointCost": 1,
+  "displayName": "Pawn",
+  "description": "Moves 1 forward (2 on first move), captures diagonally, en passant.",
+  "assetBaseName": "pawn",
+  "initialState": {
+    "hasMoved": false,
+    "justMovedTwoSquares": false
+  },
+  "moveComponents": [
+    { "type": "PAWN_FORWARD" },
+    { "type": "PAWN_CAPTURE" },
+    { "type": "EN_PASSANT" }
+  ]
+}

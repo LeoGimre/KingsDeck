@@ -1,0 +1,6 @@
+{
+  "topicId": "capture",
+  "title": "Capturing pieces",
+  "content": "Pieces are captured when a piece either overlaps, or is overlapped by, an enemy piece. You cannot capture your own pieces.\nUnless stated, a piece cannot capture a piece that is behind another piece, friendly or opponent.\nSome pieces can attack from range, this is stated in their rules under “Pieces & Movement”.\nCaptured pieces are removed from the board",
+  "imagePath": null
+}

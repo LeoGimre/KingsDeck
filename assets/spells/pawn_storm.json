@@ -1,0 +1,18 @@
+{
+  "typeName": "PAWN_STORM",
+  "pointCost": 3,
+  "displayName": "Pawn Storm",
+  "description": "This turn, all your pawns can move 2 squares, even if they have moved before.",
+  "iconBaseName": "spell_pawn_storm",
+  "requiresTarget": false,
+  "endsTurn": false,
+  "effectComponents": [
+    {
+      "type": "APPLY_BOARD_EFFECT",
+      "params": {
+        "effect_name": "pawn_storm_active",
+        "duration": "current_turn"
+      }
+    }
+  ]
+}

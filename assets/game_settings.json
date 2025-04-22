@@ -1,0 +1,12 @@
+{
+  "matchmaking": {
+    "pointLimits": [40, 60, 80, 100],
+    "timeLimits": ["1 min", "3 min", "5 min", "10 min", "Unlimited"],
+    "defaultTimeLimit": "5 min",
+    "defaultPointLimit": 40
+  },
+  "deckBuilding": {
+    "pointLimits": [40, 60, 80, 100],
+    "defaultPointLimit": 40
+  }
+}

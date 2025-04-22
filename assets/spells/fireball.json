@@ -1,0 +1,15 @@
+{
+  "typeName": "FIREBALL",
+  "pointCost": 6,
+  "displayName": "Fireball",
+  "description": "Destroy target non-king piece.",
+  "iconBaseName": "spell_fireball",
+  "requiresTarget": true,
+  "endsTurn": true,
+  "effectComponents": [
+    {
+      "type": "DESTROY_TARGET",
+      "params": { "target_type": "non-king" }
+    }
+  ]
+}

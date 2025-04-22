@@ -1,0 +1,18 @@
+{
+  "typeName": "QUEEN",
+  "pointCost": 9,
+  "displayName": "Queen",
+  "description": "Moves horizontally, vertically, or diagonally.",
+  "assetBaseName": "queen",
+  "initialState": {},
+  "moveComponents": [
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": -1} },
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 1, "dy": -1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": -1} }
+  ]
+}

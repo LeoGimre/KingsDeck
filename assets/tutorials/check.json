@@ -1,0 +1,6 @@
+{
+  "topicId": "check",
+  "title": "Check",
+  "content": "When the king is attacked by another piece this is called \"check\".\nThe king may never move himself into check (where he could be captured).\nPieces put the king in check when they are able to capture the king on their next move. The king must either move out of the piece’s “line of fire” or have another piece step in-between the king and the attacking piece.\nThe king may not Castle out of, or through a check. (See “Pieces & Movement” to learn about castling.)\n",
+  "imagePath": null
+}

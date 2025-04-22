@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "560623361244",
+    "project_id": "wizardschess-158c6",
+    "storage_bucket": "wizardschess-158c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560623361244:android:70b25f337c7c211df26819",
+        "android_client_info": {
+          "package_name": "io.WizardsChess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560623361244-2u70bb13sah2eutsp0og6706iffrqh4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.WizardsChess",
+            "certificate_hash": "8e97fab0f51df26ffab110f01ccf51aa25ec4c9c"
+          }
+        },
+        {
+          "client_id": "560623361244-fe5ps0q8btt51ng5dm56fv3ej94185nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.WizardsChess",
+            "certificate_hash": "b38bdcc1db7de84881ba37a8ef9007857248635c"
+          }
+        },
+        {
+          "client_id": "560623361244-sn8ov9s8janplesbppv2rdj6ap6v5tij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbSuFmlWg6o-XrL7yiteFapfposFnJT20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560623361244-sn8ov9s8janplesbppv2rdj6ap6v5tij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

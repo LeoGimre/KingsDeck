@@ -1,0 +1,11 @@
+{
+  "typeName": "KNIGHT",
+  "pointCost": 3,
+  "displayName": "Knight",
+  "description": "Moves in an L-shape. Can jump over pieces.",
+  "assetBaseName": "knight",
+  "initialState": {},
+  "moveComponents": [
+    { "type": "L_SHAPE" }
+  ]
+}

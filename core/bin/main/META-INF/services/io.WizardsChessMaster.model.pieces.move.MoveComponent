@@ -1,0 +1,9 @@
+io.WizardsChessMaster.model.pieces.move.SlidingMoveComponent
+io.WizardsChessMaster.model.pieces.move.LShapeMoveComponent
+io.WizardsChessMaster.model.pieces.move.SingleStepMoveComponent
+io.WizardsChessMaster.model.pieces.move.PawnForwardMoveComponent
+io.WizardsChessMaster.model.pieces.move.PawnCaptureComponent
+io.WizardsChessMaster.model.pieces.move.EnPassantMoveComponent
+io.WizardsChessMaster.model.pieces.move.CastlingMoveComponent
+io.WizardsChessMaster.model.pieces.move.RangedLAttackMoveComponent
+

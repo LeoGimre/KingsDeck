@@ -1,0 +1,14 @@
+{
+  "typeName": "KING",
+  "pointCost": 0,
+  "displayName": "King",
+  "description": "Moves one square any direction. Can castle.",
+  "assetBaseName": "king",
+  "initialState": {
+    "hasMoved": false
+  },
+  "moveComponents": [
+    { "type": "SINGLE_STEP" },
+    { "type": "CASTLING" }
+  ]
+}

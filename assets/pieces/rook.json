@@ -1,0 +1,16 @@
+{
+  "typeName": "ROOK",
+  "pointCost": 5,
+  "displayName": "Rook",
+  "description": "Moves horizontally or vertically any number of squares.",
+  "assetBaseName": "rook",
+  "initialState": {
+    "hasMoved": false
+  },
+  "moveComponents": [
+    { "type": "SLIDING", "params": {"dx": 1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": -1, "dy": 0} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": 1} },
+    { "type": "SLIDING", "params": {"dx": 0, "dy": -1} }
+  ]
+}

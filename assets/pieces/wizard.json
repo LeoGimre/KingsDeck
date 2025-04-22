@@ -1,0 +1,11 @@
+{
+  "typeName": "WIZARD",
+  "pointCost": 5,
+  "displayName": "Wizard",
+  "description": "Moves one step in any direction.",
+  "assetBaseName": "wizard",
+  "initialState": {},
+  "moveComponents": [
+    { "type": "SINGLE_STEP" }
+  ]
+}
