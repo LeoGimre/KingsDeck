@@ -1,5 +1,8 @@
 # KingsDeck
 
+## Project Structure
+The project contains a android and a core folder. The android folder contains the android spesific implementation code and the assets folder holding the images, ui skin as well as the pieces, spells, tutorial and game settings jsons which will generate the content for the game on runtime. The core folder holds the game code which is launched through the core main class using the packages model, view, presenter for the MVP pattern. As well as the config and service packages for the addition of the client server pattern through service and the loading config files thorugh the config package.
+
 ## Installing and running the game on Android Device 
 
 Download the APK file from the top folder of this repository. The filename is KingsDeck.apk and transfer it onto your android device. 
